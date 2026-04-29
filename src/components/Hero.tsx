@@ -103,7 +103,7 @@ export default function Hero({ setActiveSection }: { setActiveSection: (s: strin
               {/* Profile Image Placeholder */}
               <div className="w-[300px] h-[400px] md:w-[450px] md:h-[550px] relative flex justify-center items-end">
                   <img 
-                    src="/profile.png" 
+                    src="/ayoub.png" 
                     alt="Ayoub Ouerdi" 
                     className="absolute inset-0 w-full h-full object-cover object-center filter grayscale hover:grayscale-0 transition-all duration-700 z-20"
                     style={{ WebkitMaskImage: 'linear-gradient(to top, transparent 5%, black 30%)', maskImage: 'linear-gradient(to top, transparent 5%, black 30%)' }}
