@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Github, Linkedin, ArrowUpRight, Blocks, MonitorSmartphone } from 'lucide-react';
+import profileImg from '../assets/profile.png';
 
 export default function Hero({ setActiveSection }: { setActiveSection: (s: string) => void }) {
   return (
@@ -103,7 +104,7 @@ export default function Hero({ setActiveSection }: { setActiveSection: (s: strin
               {/* Profile Image Placeholder */}
               <div className="w-[300px] h-[400px] md:w-[450px] md:h-[550px] relative flex justify-center items-end">
                   <img 
-                    src="/ayoub.png" 
+                    src={profileImg} 
                     alt="Ayoub Ouerdi" 
                     className="absolute inset-0 w-full h-full object-cover object-center filter grayscale hover:grayscale-0 transition-all duration-700 z-20"
                     style={{ WebkitMaskImage: 'linear-gradient(to top, transparent 5%, black 30%)', maskImage: 'linear-gradient(to top, transparent 5%, black 30%)' }}
